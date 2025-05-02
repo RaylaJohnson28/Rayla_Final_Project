@@ -58,16 +58,13 @@ main {
     box-shadow: 0 0 10px rgba(0, 170, 255, 0.5);
 }
 .profile-pic {
+    display: flexbox;
+    margin: 10px auto;
+    height: 200px;
     width: 200px;
-    border-radius: 50%;
-    margin-bottom: 20px;
-    margin: 10px;
-    margin-left: 16px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-}
-img{
-    height: 250px;
-    width: 200px;
+    max-width: 200px;
+    border-radius: 10px;
+    padding-left: 35px;
 }
 .img {
     display: block;

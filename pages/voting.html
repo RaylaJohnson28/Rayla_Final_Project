@@ -6,7 +6,7 @@
     </head>
     <body>
         <header>
-            <h1>Game Reviews</h1>
+            <h1>Voting</h1>
             <nav>
                 <ul>
                     <li><a href="../index.html">Home</a></li>
@@ -17,33 +17,39 @@
                 </ul>
             </nav>
         </header>
-        <section class="container">
-            <h1>Vote: Which Game Should I Play / Review Next?</h1>
-            <form action="mailto:raylajohnson1@gmail.com" method="post" enctype="text/plain">
-                <label>
-                    <input type="radio" name="game" value="Undertale" required>
-                    Undertale
-                </label>
-                <label>
-                    <input type="radio" name="game" value="PlateUp!" required>
-                    PlateUp!
-                </label>
-                <label>
-                    <input type="radio" name="game" value="HOI" required>
-                    Hearts of Iron IV
-                </label>
-                <label>
-                    <input type="radio" name="game" value="Split Fiction" required>
-                    Split Fiction
-                </label>
-                <label>
-                    <input type="radio" name="game" value="Other" required>
-                    Other (comment below)
-                </label>
-                <textarea name="comment" placeholder="Suggest another game here..." rows="3"></textarea>
-                <button type="submit">Submit Vote</button>
-            </form>
-        </section>
+        <main>
+            <section class="container">
+                <h1>Vote: Which Game Should I Play / Review Next?</h1>
+                <form action="mailto:raylajohnson1@gmail.com" method="post" enctype="text/plain" target="_blank">
+                    <label>
+                        <input type="radio" name="game" value="Undertale" required>
+                        Undertale
+                    </label>
+                    <label>
+                        <input type="radio" name="game" value="PlateUp!" required>
+                        PlateUp!
+                    </label>
+                    <label>
+                        <input type="radio" name="game" value="HOI" required>
+                        Hearts of Iron IV
+                    </label>
+                    <label>
+                        <input type="radio" name="game" value="Split Fiction" required>
+                        Split Fiction
+                    </label>
+                    <label>
+                        <input type="radio" name="game" value="Pico Park" required>
+                        Pico Park
+                    </label>
+                    <label>
+                        <input type="radio" name="game" value="Other" required>
+                        Other (comment below)
+                    </label>
+                    <textarea name="comment" placeholder="Suggest another game here..." rows="3"></textarea>
+                    <button type="submit">Submit Vote</button>
+                </form>
+            </section>
+        </main>
         <footer>
             <p>&copy; 2025 Rayla Johnson</p>
         </footer>
