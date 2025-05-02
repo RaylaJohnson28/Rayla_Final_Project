@@ -75,7 +75,22 @@ img{
     max-width: 200px;
     border-radius: 10px;
 }
-
+.container{
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 8px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+label {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
 footer {
     text-align: center;
     padding: 10px;
